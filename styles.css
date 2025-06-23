@@ -40,17 +40,17 @@ body, html {
 
 /* kolory sekcji */
 #section1 {
-    background-color: #007bff;
+    background-color: #007bff; /* Niebieski kolor sekcji 1 */
 }
 
 #section2 {
-    background-color: #28a745;
+    background-color: #28a745; /* Zielony kolor sekcji 2 */
 }
 
 #section3 {
-    background-color: #ffc107;
+    background-color: #ffc107; /* Żółty kolor sekcji 3 */
 }
 
 #section4 {
-    background-color: #dc3545;
+    background-color: #dc3545; /* Czerwony kolor sekcji 4 */
 }
