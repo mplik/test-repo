@@ -1,0 +1,40 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* dwie kolumny */
+    grid-template-rows: 1fr 1fr; /* dwa wiersze */
+    height: 100vh; /*pełna wysokość ekranu */
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center; /* wyśrodkowanie poziome */
+    align-items: center; /* wyśrodkowanie pionowe */
+    font-size: 20px; /* rozmiar czcionki */
+    color: bisque;
+    font-weight: bold;
+    border: 1px solid #ccc; /*granice między sekcjami */
+}
+
+/* kolory sekcji */
+#section1 {
+    background-color: #007bff
+}
+
+#section2 {
+    background-color: #28a745;
+}
+
+#section3 {
+    background-color: #ffc107;
+}
+
+#section4 {
+    background-color: #dc3545;
+}
