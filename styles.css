@@ -5,6 +5,22 @@ body, html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.header {
+    background-color: #007bff; /* Niebieski kolor nagłówka */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.footer {
+    background-color: #22223b; /*ciemny granat kolor stopki */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr; /* dwie kolumny */
