@@ -77,12 +77,40 @@ body, html {
 .menu a:hover {
     color: #ffc107;
 }
-/* Responsywność */
+/* Hamburger menu */
+.hamburger {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 32px;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    z-index: 1001;
+}
+
 @media (max-width: 600px) {
     .grid-container {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(4, 1fr);
         height: auto;
+    }
+    .hamburger {
+        display: block;
+    }
+    .menu {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background: #007bff;
+        z-index: 1000;
+    }
+    .menu.open {
+        display: block;
     }
     .menu ul {
         flex-direction: column;
