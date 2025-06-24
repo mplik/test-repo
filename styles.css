@@ -91,6 +91,50 @@ body, html {
     z-index: 1001;
 }
 
+/* Stylizacja nagłówka sekcji */
+.section-header {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center; /* Wyśrodkowanie nagłówka */
+    margin-bottom: 20px; /* Odstęp od kart */
+    color: white; /* Kolor tekstu nagłówka */
+}
+
+/* Kontener kart */
+.card-container {
+    display: flex; /* Flexbox dla kart */
+    gap: 20px; /* Odstęp między kartami */
+    justify-content: center; /* Wyśrodkowanie kart */
+    padding: 20px; /* Wewnętrzne odstępy */
+    flex-wrap: wrap; /* Karty przechodzą do nowego wiersza na mniejszych ekranach */
+}
+
+/* Stylizacja kart */
+.card {
+    flex: 1; /* Równa szerokość kart */
+    max-width: 300px; /* Maksymalna szerokość każdej karty */
+    background-color: #f8f9fa; /* Jasne tło dla kart */
+    border: 1px solid #ddd; /* Obramowanie kart */
+    border-radius: 8px; /* Zaokrąglone rogi */
+    padding: 20px; /* Wewnętrzne odstępy */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efekt cienia */
+    text-align: center; /* Wyśrodkowanie tekstu w kartach */
+}
+
+/* Nagłówki w kartach */
+.card h3 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #007bff; /* Kolor nagłówka karty */
+}
+
+/* Tekst w kartach */
+.card p {
+    font-size: 16px;
+    color: #555; /* Kolor tekstu */
+}
+
+
 @media (max-width: 600px) {
     .grid-container {
         grid-template-columns: 1fr;
@@ -130,5 +174,11 @@ body, html {
     .grid-item {
         font-size: 16px;
         padding: 20px 0;
+    }
+
+    /* Responsywność dla kart */
+    .card-container {
+        flex-direction: column; /* Karty jedna pod drugą na małych ekranach */
+        gap: 10px; /* Mniejszy odstęp między kartami */
     }
 }
