@@ -42,6 +42,7 @@ body, html {
 /* kolory sekcji */
 #section1 {
     background-color: #007bff; /* Niebieski kolor sekcji 1 */
+    color: bisque;
 }
 
 #section2 {
