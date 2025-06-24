@@ -42,7 +42,6 @@ body, html {
 /* kolory sekcji */
 #section1 {
     background-color: #007bff; /* Niebieski kolor sekcji 1 */
-    color: bisque;
 }
 
 #section2 {
@@ -99,7 +98,7 @@ body, html {
     font-weight: bold;
     text-align: center; /* Wyśrodkowanie nagłówka */
     margin-bottom: 20px; /* Odstęp od kart */
-    color: white; /* Kolor tekstu nagłówka */
+    color: bisque; /* Kolor tekstu nagłówka */
 }
 
 /* Kontener kart */
