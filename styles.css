@@ -30,8 +30,9 @@ body, html {
 
 .grid-item {
     display: flex;
-    justify-content: center; /* wyśrodkowanie poziome */
-    align-items: center; /* wyśrodkowanie pionowe */
+    flex-direction: column; /* Ustawia elementy jeden pod drugim */
+    justify-content: center; /* wyśrodkowanie pionowe */
+    align-items: center; /* wyśrodkowanie poziome */
     font-size: 20px; /* rozmiar czcionki */
     color: bisque;
     font-weight: bold;
