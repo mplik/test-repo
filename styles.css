@@ -29,6 +29,7 @@ body, html {
 }
 
 .grid-item {
+    margin: 12px;
     display: flex;
     flex-direction: column; /* Ustawia elementy jeden pod drugim */
     justify-content: center; /* wyśrodkowanie pionowe */
