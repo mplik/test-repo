@@ -10,6 +10,9 @@ Projekt testowy utworzony przez użytkownika `mplik`.
 
 # test-repo
 
+## GitAds Sponsored
+[![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=mplik/test-repo@github)](https://gitads.dev/v1/ad-track?source=mplik/test-repo@github)
+
 Repozytorium testowe zawierające przykładowe pliki HTML, CSS oraz JavaScript.
 
 ## Zawartość
