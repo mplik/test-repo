@@ -1,3 +1,5 @@
+<!-- GitAds-Verify: K8UCN48FO4V5MNVN7WNXFCEDJQWQIQCR -->
+
 # Autor
 
 Projekt testowy utworzony przez użytkownika `mplik`.
